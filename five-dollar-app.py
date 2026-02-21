@@ -56,4 +56,4 @@ def search_food_items(budget):
     print(result)
     return result
 
-app.run(host = "0.0.0.0")
+app.run(host = "0.0.0.0", port = 5050)
